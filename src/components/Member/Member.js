@@ -6,7 +6,7 @@ function Member() {
     return (
         <section
             id="member"
-            className="text-gray-700 body-font border-t border-gray-200"
+            className="text-gray-700 body-font border-t border-b border-gray-200"
         >
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">

@@ -1,7 +1,7 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-import { ReactComponent as Logo } from '../../static/svg/logo2.svg';
+import logoimage from '../../static/svg/logo2.svg';
 
 function Header() {
     return (
@@ -11,7 +11,7 @@ function Header() {
                     className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
                     href="/"
                 >
-                    <Logo className="w-10 h-10" />
+                    <img alt="logo" src={logoimage} className="w-10 h-10" />
                     <span className="ml-3 text-xl text-blue-800">PASSION</span>
                     <span className="ml-1 text-xl text-gray-900">PIONEER</span>
                 </a>
