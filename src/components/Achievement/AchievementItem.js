@@ -41,9 +41,9 @@ const AchievementItem = () => {
         <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
             <a
                 href={item.link}
-                className="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden"
+                className="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden border-gray-200 border"
             >
-                <div className="relative pb-48 overflow-hidden">
+                <div className="relative pb-48 overflow-hidden border-gray-200 border-b-2">
                     <img
                         className="absolute inset-0 h-full w-full object-cover"
                         src={item.imageurl}

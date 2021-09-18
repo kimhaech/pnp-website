@@ -20,7 +20,7 @@ function About() {
                     </p>
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
                         1999년 디지털정보공학과 소속 학회로 설립되어 학부 개편에
-                        따라 현재 컴퓨터공학부 소속되어 있는 학술 학회입니다.
+                        따라 현재 컴퓨터공학부에 소속되어 있는 학술 학회입니다.
                     </p>
                     <br />
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -65,23 +65,7 @@ function About() {
                                     이론에 관한 학습을 통해 자신의 소프트웨어
                                     분야의 전문성을 키워갑니다.
                                 </p>
-                                <a
-                                    href="/"
-                                    className="mt-3 xl:mt-9 text-indigo-500 inline-flex items-center"
-                                >
-                                    확인하기
-                                    <svg
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth={2}
-                                        className="w-4 h-4 ml-2"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path d="M5 12h14M12 5l7 7-7 7" />
-                                    </svg>
-                                </a>
+                              
                             </div>
                         </div>
                     </div>
@@ -113,20 +97,6 @@ function About() {
                                     활동을 진행합니다. 매 학기 말 서로의
                                     프로젝트를 발표를 통해 공유합니다.
                                 </p>
-                                <a className="mt-3 text-indigo-500 inline-flex items-center">
-                                    확인하기
-                                    <svg
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth={2}
-                                        className="w-4 h-4 ml-2"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path d="M5 12h14M12 5l7 7-7 7" />
-                                    </svg>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -161,20 +131,6 @@ function About() {
                                     자체 개발 프로젝트에 참여하며 자신만의
                                     프로젝트를 완성해나갑니다.
                                 </p>
-                                <a className="mt-3 xl:mt-9 text-indigo-500 inline-flex items-center">
-                                    확인하기
-                                    <svg
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth={2}
-                                        className="w-4 h-4 ml-2"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path d="M5 12h14M12 5l7 7-7 7" />
-                                    </svg>
-                                </a>
                             </div>
                         </div>
                     </div>
