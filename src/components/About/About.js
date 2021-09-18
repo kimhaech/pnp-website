@@ -65,7 +65,10 @@ function About() {
                                     이론에 관한 학습을 통해 자신의 소프트웨어
                                     분야의 전문성을 키워갑니다.
                                 </p>
-                                <a className="mt-3 xl:mt-9 text-indigo-500 inline-flex items-center">
+                                <a
+                                    href="/"
+                                    className="mt-3 xl:mt-9 text-indigo-500 inline-flex items-center"
+                                >
                                     확인하기
                                     <svg
                                         fill="none"
