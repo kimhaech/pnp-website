@@ -13,9 +13,13 @@ const AchievementModal = ({ itemsToShow, clickItems }) => {
                         </div>
                         <div className="border-b border-solid border-gray-200"></div>
                         <div className="relative mx-5">
-                            <img src={itemsToShow.imageurl} />
-                            <p className="my-4 text-blueGray-500 text-base leading-relaxed">
+                            <img className="mt-4" src={itemsToShow.imageurl} />
+                            <p className="mt-4 text-blueGray-500 text-base leading-relaxed">
                                 {itemsToShow.content}
+                            </p>
+                            <br />
+                            <p className="mb-3 text-blueGray-500 text-base leading-relaxed">
+                                <a className="text-indigo-500" href={itemsToShow.link}>[링크]</a>
                             </p>
                         </div>
                         <div className="border-t border-solid border-blueGray-200 rounded-b"></div>

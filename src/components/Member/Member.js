@@ -39,7 +39,7 @@ const Member = () => {
                         구성원
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3">
-                        PnP에서 이룬 활동 성과를 소개합니다.
+                        현재 활동중인 학회원들을 소개합니다.
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-2">
