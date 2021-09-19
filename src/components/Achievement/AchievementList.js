@@ -2,6 +2,7 @@ import kshieldjrimage from '../../static/images/kshieldjr.jpg';
 import do11image from '../../static/images/do11.jpg';
 import mlsaimage from '../../static/images/mlsa.png';
 import bobimage from '../../static/images/bob.jpg';
+import junctionximage from '../../static/images/junctionx.png';
 
 const achievements = [
     {
@@ -31,6 +32,13 @@ const achievements = [
             '한국정보기술연구원이 주관하는 차세대 보안리더 양성 프로그램에 전승현 학우님이 합격했습니다.',
         imageurl: bobimage,
         link: 'https://www.kitribob.kr/',
+    },
+    {
+        title: 'Junction X Seoul 2021 Microsoft Track 2nd Winner',
+        content:
+            '2021년 5월 21부터 23일까지 3일간 진행된 Junction X Seoul 2021에 PnP 학회원 전승현, 이유림, 김시현님 외 1명이 IwaanaEatChicken팀으로 참여하여  Microsoft Track에서 2등상을 수상했습니다.',
+        imageurl: junctionximage,
+        link: 'http://kshieldjr.org/',
     },
 ];
 

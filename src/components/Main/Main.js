@@ -26,16 +26,16 @@ function Main() {
                         <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg animate-bounce">
                             지원하기
                             <svg
-                                class="w-6 h-6 mt-0.5 ml-1"
+                                className="w-6 h-6 mt-0.5 ml-1"
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
                                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                                 ></path>
                             </svg>

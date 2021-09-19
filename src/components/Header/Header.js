@@ -13,7 +13,7 @@ function Header() {
                 >
                     <img alt="logo" src={logoimage} className="w-10 h-10" />
                     <span className="ml-3 text-xl text-blue-800">PASSION</span>
-                    <span className="ml-1 text-xl text-gray-900">PIONEER</span>
+                    <span className="ml-1 text-xl text-gray-900">PIONNER</span>
                 </a>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <AnchorLink

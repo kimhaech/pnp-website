@@ -1,9 +1,7 @@
 import React from 'react';
 
-import members from './MemberList';
-
-const MemberItem = () => {
-    const list = members.map((member, index) => (
+const MemberItem = ({ itemsToRender }) => {
+    const list = itemsToRender.map((member, index) => (
         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
             {(() => {
                 if (member.blogURL === '') {
@@ -21,9 +19,9 @@ const MemberItem = () => {
                                                 xmlns="http://www.w3.org/2000/svg"
                                             >
                                                 <path
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                    stroke-width="2"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    strokeWidth={2}
                                                     d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                                                 ></path>
                                             </svg>
@@ -35,6 +33,7 @@ const MemberItem = () => {
                                             alt="team"
                                             className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                                             src={member.profileImage}
+                                            key={index}
                                         />
                                     );
                                 }
@@ -47,7 +46,7 @@ const MemberItem = () => {
                                 >
                                     {member.name}
                                 </h2>
-                                <p className="text-gray-500">
+                                <p className="text-gray-500" key={index}>
                                     {member.classOf}
                                 </p>
                             </div>
@@ -73,9 +72,9 @@ const MemberItem = () => {
                                                     xmlns="http://www.w3.org/2000/svg"
                                                 >
                                                     <path
-                                                        stroke-linecap="round"
-                                                        stroke-linejoin="round"
-                                                        stroke-width="2"
+                                                        strokeLinecap="round"
+                                                        strokeLinejoin="round"
+                                                        strokeWidth={2}
                                                         d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                                                     ></path>
                                                 </svg>

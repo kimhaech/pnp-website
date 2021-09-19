@@ -7,27 +7,27 @@ function About() {
             className="text-gray-700 body-font border-t border-gray-200"
         >
             <div className="container px-5 py-24 mx-auto">
-                <div class="flex flex-col text-center w-full mb-20">
+                <div className="flex flex-col text-center w-full mb-20">
                     <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
                         ABOUT
                     </h2>
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
                         학회 소개
                     </h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base mt-3">
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3">
                         PnP는 Passion & Pionner, “열정을 가진 자들이 모여 세상을
                         개척한다” 라는 의미를 가지고 있습니다.
                     </p>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                         1999년 디지털정보공학과 소속 학회로 설립되어 학부 개편에
                         따라 현재 컴퓨터공학부에 소속되어 있는 학술 학회입니다.
                     </p>
                     <br />
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                         컴퓨터공학부 학부생들이 개발자로 성장하기 위해 자신의
                         목표를 찾고,
                     </p>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                         같은 목표를 가지고 있는 학우들과 함께 학습 및 연구를
                         통해 자신의 프로젝트를 완성해나가고 있습니다.
                     </p>
@@ -48,9 +48,9 @@ function About() {
                                         viewBox="0 0 24 24"
                                     >
                                         <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
                                             d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
                                         ></path>
                                     </svg>
@@ -114,9 +114,9 @@ function About() {
                                         viewBox="0 0 24 24"
                                     >
                                         <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
                                             d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
                                         ></path>
                                     </svg>
