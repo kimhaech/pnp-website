@@ -5,7 +5,7 @@
 1.
 
 ```bash
-npm install
+yarn install
 ```
 
 ## 실행
@@ -13,5 +13,5 @@ npm install
 2.
 
 ```bash
-npm start
+yarn start
 ```
