@@ -1,3 +1,1 @@
-import Achievement from './Achievement';
-
-export default Achievement;
+export { default } from './Achievement';

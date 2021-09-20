@@ -1,9 +1,10 @@
 import React from 'react';
+
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import logoimage from '../../static/svg/logo2.svg';
 
-function Header() {
+const Header = () => {
     return (
         <header className="text-gray-700 body-font border-b border-gray-200">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -34,13 +35,16 @@ function Header() {
                     >
                         MEMBERS
                     </AnchorLink>
-                    <a href="#recruit" className="mr-5 hover:text-gray-900">
+                    <AnchorLink
+                        href="#recruit"
+                        className="mr-5 hover:text-gray-900"
+                    >
                         RECRUIT
-                    </a>
+                    </AnchorLink>
                 </nav>
             </div>
         </header>
     );
-}
+};
 
 export default Header;

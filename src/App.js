@@ -1,25 +1,13 @@
 import React from 'react';
 
-import Header from './components/Header';
-import Main from './components/Main';
-import About from './components/About';
-import Achievement from './components/Achievement';
-import Member from './components/Member';
-import Ask from './components/Ask';
-import Footer from './components/Footer';
+import MainPage from './pages/MainPage';
 
-function App() {
+const App = () => {
     return (
         <div>
-            <Header />
-            <Main />
-            <About />
-            <Achievement />
-            <Member />
-            <Ask />
-            <Footer />
+            <MainPage />
         </div>
     );
-}
+};
 
 export default App;
