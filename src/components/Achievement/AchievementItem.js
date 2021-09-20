@@ -24,10 +24,16 @@ const AchievementItem = ({ itemsToRender, clickItems, clickedObject }) => {
                         key={index}
                     />
                 </div>
-                <div className="p-4">
-                    <h2 className="text-gray-900 title-font font-medium" key={index}>
+                <div className="m-5 xl:h-32">
+                    <h2
+                        className="text-gray-900 title-font font-medium break-all"
+                        key={index}
+                    >
                         {achievement.title}
                     </h2>
+                    <p className="text-gray-500 mt-2 break-all">
+                        {achievement.content.substr(0, 50) + '...'}
+                    </p>
                 </div>
             </a>
         </div>

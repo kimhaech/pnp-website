@@ -6,6 +6,7 @@ import junctionximage from '../../static/images/junctionx.png';
 
 const achievements = [
     {
+        cateogry: 'SECURITY',
         title: '과학기술정보통신부 주최 K-Shield 주니어 합격',
         content:
             '이번에 18학번 이유림 학우가 케이쉴드주니어(K-Shield Jr.)라는 프로그램에 합격했습니다. 모두 축하해주세요 !! ✨🎉🎊 케이쉴드주니어(K-Shield Jr.)란 과학기술정보통신부가 주최하고 한국인터넷진흥원이 주관하는 교육으로 향후 정보보호 분야 취업 시 현장실무를 즉각 수행할 수 있는 사이버 보안 전문 주니어 인력 양성을 목표로 하는 프로그램입니다.',
@@ -13,7 +14,7 @@ const achievements = [
         link: 'http://kshieldjr.org/',
     },
     {
-        title: '"Do11" 게임 스팀에 출시 - SJR Teams',
+        title: '"Do11" 게임 출시 - SJR Teams',
         content:
             'PnP 학회원 성재록, 정민규, 조승현 외 2명으로 구성된 SJR Teams이 6개월 간의 작업으로 게임 개발을 완성하고 Steam에 출시하였습니다. 많은 관심 부탁 드립니다. 😁😎',
         imageurl: do11image,

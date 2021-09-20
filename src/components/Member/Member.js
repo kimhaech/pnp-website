@@ -45,26 +45,29 @@ const Member = () => {
                 <div className="flex flex-wrap -m-2">
                     <MemberItem itemsToRender={itemsToShow} />
                 </div>
-                <button
-                    onClick={handleShowMoreItems}
-                    className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-                >
-                    더보기
-                    <svg
-                        className="w-6 h-6 mt-0.5 ml-1"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
+                {Object.keys(MemberList).length ===
+                Object.keys(arrayForHoldingItems).length ? null : (
+                    <button
+                        onClick={handleShowMoreItems}
+                        className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                     >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M17 8l4 4m0 0l-4 4m4-4H3"
-                        ></path>
-                    </svg>
-                </button>
+                        더보기
+                        <svg
+                            className="w-6 h-6 mt-0.5 ml-1"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M17 8l4 4m0 0l-4 4m4-4H3"
+                            ></path>
+                        </svg>
+                    </button>
+                )}
             </div>
         </section>
     );
