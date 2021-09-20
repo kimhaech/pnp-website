@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ParticlesBg from 'particles-bg';
-import Typewriter from 'typewriter-effect';
+import Typewriter from '../Typewriter/Typewriter';
 
 const Main = () => {
     return (
@@ -13,7 +13,7 @@ const Main = () => {
                         <Typewriter
                             options={{
                                 strings: [
-                                    '열정을 가진 자들이 <br className="hidden lg:inline-block" /> 모여 세상을 개척한다.',
+                                    '열정을 가진 자들이 <br /> 모여 세상을 개척한다.',
                                 ],
                                 autoStart: true,
                                 loop: true,
