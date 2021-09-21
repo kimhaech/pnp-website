@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Main from '../components/Main';
 import About from '../components/About';
+import Timeline from '../components/Timeline';
 import Achievement from '../components/Achievement';
 import Member from '../components/Member';
 import Ask from '../components/Ask';
@@ -15,6 +16,7 @@ const MainPage = () => {
             <Header />
             <Main />
             <About />
+            <Timeline />
             <Achievement />
             <Member />
             <Ask />

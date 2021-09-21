@@ -15,7 +15,7 @@ function About() {
                         학회 소개
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3">
-                        PnP는 Passion & Pionner, “열정을 가진 자들이 모여 세상을
+                        PnP는 Passion & Pioneer, “열정을 가진 자들이 모여 세상을
                         개척한다” 라는 의미를 가지고 있습니다.
                     </p>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
