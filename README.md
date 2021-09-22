@@ -3,10 +3,10 @@
 ## 설치
 
 1. git을 사용해서 다운로드합니다.
+
 ```bash
 git clone https://github.com/k4sud0n/pnp-website.git
 ```
-
 
 ## 실행
 
@@ -22,16 +22,24 @@ yarn ## or npm install
 yarn start ## or npm start
 ```
 
-## 설정
+## 배포
 
-1. ```.env``` 파일을 만들고 아래와 같이 적어줍니다.
+```gh-pages``` 모듈을 사용해서 배포합니다.
 
-```
-REACT_APP_RECRUIT_LINK="구글폼 링크"
-```
-
-아래는 예시입니다.
+1. npm이나 yarn을 사용해서 `gh-pages` 모듈을 설치합니다.
 
 ```
-REACT_APP_RECRUIT_LINK="https://forms.gle/Y9vF74i1cqfPm9aF6"
+yarn add gh-pages ## or npm install gh-pages
+```
+
+2. ```package.json`` 에서 homepage를 수정합니다.
+
+```
+"homepage": "https://{깃허브아이디}.github.io/{리포지토리명}/"
+```
+
+3. npm이나 yarn을 사용해서 build 명령어를 실행시킵니다.
+
+```
+yarn build ## or npm run build
 ```

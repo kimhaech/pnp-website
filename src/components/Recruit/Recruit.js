@@ -2,8 +2,6 @@ import React from 'react';
 
 import recruitimage from '../../static/svg/recruit.svg';
 
-require('dotenv').config();
-
 const Recruit = () => {
     return (
         <section id="recruit" className="border-b border-gray-200">
@@ -23,7 +21,7 @@ const Recruit = () => {
                         </p>
                         <a
                             className="text-center sm:text-left"
-                            href={process.env.REACT_APP_RECRUIT_LINK}
+                            href="https://forms.gle/Y9vF74i1cqfPm9aF6"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
