@@ -31,7 +31,7 @@ const MemberCounter = (props) => {
                                     start={0}
                                     end={MemberList.length}
                                     duration="2"
-                                    delay={1}
+                                    delay={0}
                                 >
                                     {({ countUpRef, start }) => (
                                         <VisibilitySensor
@@ -56,7 +56,7 @@ const MemberCounter = (props) => {
                                     start={0}
                                     end={7}
                                     duration="2"
-                                    delay={1}
+                                    delay={0}
                                 >
                                     {({ countUpRef, start }) => (
                                         <VisibilitySensor
@@ -81,7 +81,7 @@ const MemberCounter = (props) => {
                                     start={0}
                                     end={AchievementList.length}
                                     duration="2"
-                                    delay={1}
+                                    delay={0}
                                 >
                                     {({ countUpRef, start }) => (
                                         <VisibilitySensor
