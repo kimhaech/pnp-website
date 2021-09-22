@@ -2,6 +2,8 @@ import React from 'react';
 
 import recruitimage from '../../static/svg/recruit.svg';
 
+import Fade from 'react-reveal/Fade';
+
 const Recruit = () => {
     return (
         <section id="recruit" className="border-b border-gray-200">
@@ -25,7 +27,7 @@ const Recruit = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <button className="inline-flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                            <button className="inline-flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg animate-bounce mt-2">
                                 지원하기
                                 <svg
                                     className="w-6 h-6 mt-0.5 ml-1"
@@ -44,90 +46,93 @@ const Recruit = () => {
                             </button>
                         </a>
                     </div>
-                    <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
-                        <div class="container mx-auto w-full h-full">
-                            <div class="relative wrap overflow-hidden p-10 h-full">
-                                <div
-                                    class="border-2-2 border-indigo-400 absolute h-full border"
-                                    style={{
-                                        right: '50%',
-                                        borderRadius: '2%',
-                                    }}
-                                ></div>
-                                <div
-                                    class="border-2-2 border-indigo-400 absolute h-full border"
-                                    style={{
-                                        left: '50%',
-                                        borderRadius: '2%',
-                                    }}
-                                ></div>
-                                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                                    <div class="order-1 w-5/12"></div>
-                                    <div class="order-1 w-5/12 px-1 py-4 text-right">
-                                        <p class="mb-3 text-base text-indigo-500">
-                                            08.26(목) ~ 09.10(금)
-                                        </p>
-                                        <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                                            지원서 제출
-                                        </h4>
-                                        <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
-                                            약 2주간 학회원 모집이 진행됩니다.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="mb-8 flex justify-between items-center w-full right-timeline">
-                                    <div class="order-1 w-5/12"></div>
-                                    <div class="order-1  w-5/12 px-1 py-4 text-left">
-                                        <p class="mb-3 text-base text-indigo-500">
-                                            09.13(월)
-                                        </p>
-                                        <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                                            면접
-                                        </h4>
-                                        <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
-                                            시간, 장소 등 세부 사항은 개인
-                                            이메일로 보내드립니다.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                                    <div class="order-1 w-5/12"></div>
-                                    <div class="order-1 w-5/12 px-1 py-4 text-right">
-                                        <p class="mb-3 text-base text-indigo-500">
-                                            9.20(월)
-                                        </p>
-                                        <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                                            최종 합격자 안내
-                                        </h4>
-                                        <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
-                                            최종 합격여부를 이메일로
-                                            안내드립니다. 합격자는 활동 관련
-                                            사항을 받아보실 수 있습니다.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="mb-8 flex justify-between items-center w-full right-timeline">
-                                    <div class="order-1 w-5/12"></div>
 
-                                    <div class="order-1  w-5/12 px-1 py-4">
-                                        <p class="mb-3 text-base text-indigo-500">
-                                            09.22(수) ~
-                                        </p>
-                                        <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
-                                            PnP 활동 시작
-                                        </h4>
-                                        <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
-                                            학회 정규 활동이 시작됩니다.
-                                        </p>
+                    <Fade bottom>
+                        <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
+                            <div class="container mx-auto w-full h-full">
+                                <div class="relative wrap overflow-hidden p-10 h-full">
+                                    <div
+                                        class="border-2-2 border-indigo-400 absolute h-full border"
+                                        style={{
+                                            right: '50%',
+                                            borderRadius: '2%',
+                                        }}
+                                    ></div>
+                                    <div
+                                        class="border-2-2 border-indigo-400 absolute h-full border"
+                                        style={{
+                                            left: '50%',
+                                            borderRadius: '2%',
+                                        }}
+                                    ></div>
+                                    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                                        <div class="order-1 w-5/12"></div>
+                                        <div class="order-1 w-5/12 px-1 py-4 text-right">
+                                            <p class="mb-3 text-base text-indigo-500">
+                                                08.26(목) ~ 09.10(금)
+                                            </p>
+                                            <h4 class="mb-3 font-bold text-lg md:text-2xl">
+                                                지원서 제출
+                                            </h4>
+                                            <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
+                                                약 2주간 학회원 모집이
+                                                진행됩니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                                        <div class="order-1 w-5/12"></div>
+                                        <div class="order-1  w-5/12 px-1 py-4 text-left">
+                                            <p class="mb-3 text-base text-indigo-500">
+                                                09.13(월)
+                                            </p>
+                                            <h4 class="mb-3 font-bold text-lg md:text-2xl">
+                                                면접
+                                            </h4>
+                                            <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
+                                                시간, 장소 등 세부 사항은 개인
+                                                이메일로 보내드립니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                                        <div class="order-1 w-5/12"></div>
+                                        <div class="order-1 w-5/12 px-1 py-4 text-right">
+                                            <p class="mb-3 text-base text-indigo-500">
+                                                9.20(월)
+                                            </p>
+                                            <h4 class="mb-3 font-bold text-lg md:text-2xl">
+                                                최종 합격자 안내
+                                            </h4>
+                                            <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
+                                                최종 합격여부를 이메일로
+                                                안내드립니다. 합격자는 활동 관련
+                                                사항을 받아보실 수 있습니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                                        <div class="order-1 w-5/12"></div>
+                                        <div class="order-1  w-5/12 px-1 py-4">
+                                            <p class="mb-3 text-base text-indigo-500">
+                                                09.22(수) ~
+                                            </p>
+                                            <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
+                                                PnP 활동 시작
+                                            </h4>
+                                            <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
+                                                학회 정규 활동이 시작됩니다.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <img
+                                    class="w-2/5 h-2/5 mx-auto"
+                                    src={recruitimage}
+                                />
                             </div>
-                            <img
-                                class="w-1/2 h-1/2 mx-auto"
-                                src={recruitimage}
-                            />
                         </div>
-                    </div>
+                    </Fade>
                 </div>
             </div>
         </section>
