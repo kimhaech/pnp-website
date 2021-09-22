@@ -5,6 +5,7 @@ import Main from '../components/Main';
 import About from '../components/About';
 import Achievement from '../components/Achievement';
 import Member from '../components/Member';
+import MemberCounter from '../components/MemberCounter';
 import Recruit from '../components/Recruit';
 import Ask from '../components/Ask';
 import Footer from '../components/Footer';
@@ -18,6 +19,7 @@ const MainPage = () => {
             <About />
             <Achievement />
             <Member />
+            <MemberCounter />
             <Recruit />
             <Ask />
             <Footer />

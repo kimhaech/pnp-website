@@ -32,7 +32,7 @@ yarn start ## or npm start
 yarn add gh-pages ## or npm install gh-pages
 ```
 
-2. ```package.json`` 에서 homepage를 수정합니다.
+2. ```package.json```파일에서 homepage를 수정합니다.
 
 ```
 "homepage": "https://{깃허브아이디}.github.io/{리포지토리명}/"

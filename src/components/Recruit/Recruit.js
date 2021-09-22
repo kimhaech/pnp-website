@@ -86,7 +86,7 @@ const Recruit = () => {
                                         </h4>
                                         <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
                                             시간, 장소 등 세부 사항은 개인
-                                            이메일로 안내해드립니다.
+                                            이메일로 보내드립니다.
                                         </p>
                                     </div>
                                 </div>
@@ -117,13 +117,13 @@ const Recruit = () => {
                                             PnP 활동 시작
                                         </h4>
                                         <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
-                                            학회 정규 활동이 진행됩니다.
+                                            학회 정규 활동이 시작됩니다.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <img
-                                class="w-3/5 h-3/5 mx-auto -mt-8"
+                                class="w-1/2 h-1/2 mx-auto -mt-12"
                                 src={recruitimage}
                             />
                         </div>
