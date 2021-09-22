@@ -123,7 +123,7 @@ const Recruit = () => {
                                 </div>
                             </div>
                             <img
-                                class="w-1/2 h-1/2 mx-auto -mt-12"
+                                class="w-1/2 h-1/2 mx-auto"
                                 src={recruitimage}
                             />
                         </div>

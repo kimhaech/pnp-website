@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ParticlesBg from 'particles-bg';
-import Typewriter from '../Typewriter/Typewriter';
+import Typewriter from '../../modules/Typewriter/Typewriter';
 
 const Main = () => {
     return (

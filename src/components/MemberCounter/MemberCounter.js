@@ -8,11 +8,9 @@ import AchievementList from '../Achievement/AchievementList';
 
 import './MemberCounter.css';
 
-const MemberCounter = (props) => {
+const MemberCounter = () => {
     const currentDay = new Date();
     const currentYear = currentDay.getFullYear();
-
-    const { inViewport, forwardedRef, enterCount } = props;
 
     return (
         <section

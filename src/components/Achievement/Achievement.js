@@ -43,7 +43,7 @@ const Achievement = () => {
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
                         활동 성과
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3">
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3 -mb-5">
                         PnP에서 이룬 활동 성과를 소개합니다.
                     </p>
                 </div>

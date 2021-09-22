@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Fade from 'react-reveal/Fade';
+
 const AchievementModal = ({ itemsToShow, clickItems }) => {
     const list = (
         <div>
@@ -19,7 +21,12 @@ const AchievementModal = ({ itemsToShow, clickItems }) => {
                             </p>
                             <br />
                             <p className="mb-3 text-blueGray-500 text-base leading-relaxed">
-                                <a className="text-indigo-500" href={itemsToShow.link}>[링크]</a>
+                                <a
+                                    className="text-indigo-500"
+                                    href={itemsToShow.link}
+                                >
+                                    [링크]
+                                </a>
                             </p>
                         </div>
                         <div className="border-t border-solid border-blueGray-200 rounded-b"></div>
