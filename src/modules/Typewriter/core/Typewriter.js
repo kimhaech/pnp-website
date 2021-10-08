@@ -634,7 +634,7 @@ class Typewriter {
 
             case EVENT_NAMES.PAUSE_FOR: {
                 const { ms } = currentEvent.eventArgs;
-                this.state.pauseUntil = Date.now() + parseInt(ms);
+                this.state.pauseUntil = Date.now() + parseInt(ms, 10);
                 break;
             }
 

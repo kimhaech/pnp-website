@@ -18,6 +18,7 @@ const AchievementItem = () => {
         >
           <div className="relative pb-48 overflow-hidden border-gray-200 border-b-2">
             <img
+              alt="cover"
               className="absolute inset-0 h-full w-full object-cover"
               src={achievement.imageurl}
               key={index}
