@@ -21,13 +21,13 @@ const AchievementItem = () => {
               alt="cover"
               className="absolute inset-0 h-full w-full object-cover"
               src={achievement.imageurl}
-              key={index}
+              key={achievement.imageurl}
             />
           </div>
           <div className="m-5 xl:h-32">
             <h2
               className="text-gray-900 title-font font-medium break-all"
-              key={index}
+              key={achievement.title}
             >
               {achievement.title}
             </h2>
