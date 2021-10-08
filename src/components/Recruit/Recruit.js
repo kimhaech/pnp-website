@@ -129,6 +129,7 @@ const Recruit = () => {
                                 <img
                                     class="w-2/5 h-2/5 mx-auto"
                                     src={recruitimage}
+                                    alt="recruitimage"
                                 />
                             </div>
                         </div>

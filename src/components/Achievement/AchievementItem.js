@@ -20,7 +20,6 @@ const AchievementItem = () => {
             <img
               className="absolute inset-0 h-full w-full object-cover"
               src={achievement.imageurl}
-              alt="achievement image"
               key={index}
             />
           </div>
