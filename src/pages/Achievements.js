@@ -6,7 +6,7 @@ const Achievements = () => {
   return (
     <div>
       <Header />
-      Achievements
+      Achievements Page
     </div>
   );
 };

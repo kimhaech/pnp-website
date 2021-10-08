@@ -6,7 +6,7 @@ const Members = () => {
   return (
     <div>
       <Header />
-      Members
+      Members Page
     </div>
   );
 };

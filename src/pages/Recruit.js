@@ -6,7 +6,7 @@ const Recruit = () => {
   return (
     <div>
       <Header />
-      Recruit
+      Recruit Page
     </div>
   );
 };
