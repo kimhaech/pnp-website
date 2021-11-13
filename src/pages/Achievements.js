@@ -7,6 +7,7 @@ const Achievements = () => {
     <div>
       <Header />
       Achievements Page
+      Make a page
     </div>
   );
 };
